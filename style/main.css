@@ -469,13 +469,11 @@ footer {
   transition: background-color 0.3s;
 }
 
-/* Dark mode styles for contact container */
 body.dark-mode .contact-card {
   background-color: transparent;
   box-shadow: none;
 }
 
-/* for all social containers*/
 .socialContainer {
   width: 50px;
   height: 50px;
@@ -488,7 +486,6 @@ body.dark-mode .contact-card {
   border-radius: 8px;
 }
 
-/* Dark mode styles for social containers */
 body.dark-mode .socialContainer {
   background-color: #2d2d2d;
 }
