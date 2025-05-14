@@ -463,10 +463,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 195px;
+  padding: 20px;
   gap: 20px;
   box-shadow: none;
   transition: background-color 0.3s;
+  margin: 0 auto;
 }
 
 body.dark-mode .contact-card {
@@ -558,6 +559,11 @@ body.dark-mode .socialContainer {
   .card {
     width: 100%;
     max-width: 300px;
+  }
+  
+  .contact-card {
+    padding: 15px;
+    gap: 15px;
   }
 }
 
